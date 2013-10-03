@@ -1,4 +1,4 @@
-package agent;
+package tk.ivybits.agent;
 
 import com.sun.tools.attach.AgentInitializationException;
 import com.sun.tools.attach.AgentLoadException;
@@ -15,7 +15,7 @@ import java.util.jar.JarEntry;
 import java.util.jar.JarOutputStream;
 import java.util.jar.Manifest;
 
-import static agent.Tools.getBytesFromStream;
+import static tk.ivybits.agent.Tools.getBytesFromStream;
 
 /**
  * A utility class for loading Java agents.

@@ -2,6 +2,8 @@ package agent;
 
 import org.junit.Test;
 import org.objectweb.asm.*;
+import tk.ivybits.agent.AgentLoader;
+import tk.ivybits.agent.Tools;
 
 import java.lang.instrument.ClassDefinition;
 import java.lang.instrument.ClassFileTransformer;

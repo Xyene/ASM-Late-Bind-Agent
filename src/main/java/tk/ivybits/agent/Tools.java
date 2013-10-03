@@ -1,4 +1,4 @@
-package agent;
+package tk.ivybits.agent;
 
 import java.io.*;
 import java.lang.management.ManagementFactory;
